@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+<link href="{% static 'home.css' %}" rel="stylesheet" type="text/css" />
+    <title>Py developer</title>
+</head>
+<body>
+
+    <header>
+        <a href="/home" class="logo">PORTFOLIO</a>
+
+
+        <ul class="navbar">
+            <li><a href="/about">ABOUT ME</a></li>
+            <li><a href="/skills">SKILLS</a></li>
+            <li><a href="/project">PROJECT</a></li>
+            <li><a href="/contact">CONTACT</a></li>
+        </ul>
+    </header>
+<!---home-->
+
+<section class="home" id="home">
+    <div class="home-text">
+        <h5>Hello,</h5>
+        <h1>I'm Aravind</h1>
+        <h3>Python Developer</h3>
+    </div>
+
+</section>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---link to js-->
+    <script type="text/javascript" src="{% static 'reveal.js' %}"></script>
+</body>
+</html>

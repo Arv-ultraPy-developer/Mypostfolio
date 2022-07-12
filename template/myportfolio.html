@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link href="{% static 'myportfolio.css' %}" rel="stylesheet" type="text/css" />
+    <title>SignIn & SignUp Project</title>
+</head>
+<body>
+    <section class="heading">
+    <h1>My Portfolio </h1>
+    <h1>Website </h1>
+    
+    </section>
+ <section class="para">
+    <p>Eventhough it's an ordinary portflio, i still consider it as a project, which uses django framework. HTML, CSS was used to build this website </p>
+ </section>  
+ 
+ <section class="bottom" >
+    <article class="madewith">
+     <h2>Made With :</h2>
+     <div class="icons">
+        <li><img src="{% static 'mw py.png' %}" alt=""></li>
+        <li><img src="{% static 'mw dj.png' %}" alt=""></li>
+        <li><img src="{% static 'mw html.png' %}" alt=""></li>
+        <li><img src="{% static 'mw css.png' %}" alt=""></li>
+
+     </div>
+    </article>
+    <article class="git">
+        <li><a href="https://github.com/Arv-ultraPy-developer/wax-cake" target="_blank"><img src="{% static 'mw git.png' %}" alt=""><h3>GitHub</h3></a></li>
+        <a href="/project"><h4>Return</h4></a>
+    </article>
+ </section>
+
+
+
+</body>
+</html>

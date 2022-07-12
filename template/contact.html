@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+<link href="{% static 'contact.css' %}" rel="stylesheet" type="text/css" />
+    <title>contact</title>
+</head>
+<body>
+
+    <header>
+        <a href="/home" class="logo">PORTFOLIO</a>
+
+
+        <ul class="navbar">
+            <li><a href="/about">ABOUT ME</a></li>
+            <li><a href="/skills">SKILLS</a></li>
+            <li><a href="/project">PROJECT</a></li>
+            <li><a href="/contact">CONTACT</a></li>
+        </ul>
+    </header>
+<!---about-->
+
+<section class="contact" id="contact">
+  
+
+    <div class="center">
+        <h3>Contact Us</h3>
+    </div>
+
+    <div class="contact-form">
+       <form action="" method="POST">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea name="description" id="" cols="30" rows="10" placeholder="Comment" required></textarea>
+        <a href="/submitted">
+        <input type="submit" name="" value="Send" class="send-btn">
+        </a>
+       </form> 
+    </div>
+
+   
+
+</section>
+
+<div class="copyright">
+    <p>Copyright @ 2022 MyPortfolio, All rights Reserved.<br>Created by<strong> Aravind</strong></p>
+</div>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---link to js-->
+    <script type="text/javascript" src="{% static 'reveal.js' %}"></script>

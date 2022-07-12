@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+<link href="{% static 'aboutme.css' %}" rel="stylesheet" type="text/css" />
+    <title>about</title>
+</head>
+<body>
+
+    <header>
+        <a href="/home" class="logo">PORTFOLIO</a>
+
+
+        <ul class="navbar">
+            <li><a href="/about">ABOUT ME</a></li>
+            <li><a href="/skills">SKILLS</a></li>
+            <li><a href="/project">PROJECT</a></li>
+            <li><a href="/contact">CONTACT</a></li>
+        </ul>
+    </header>
+<!---about-->
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="{% static '01.png' %}" alt="">
+    </div>
+
+
+
+
+
+    <div class="about-text">
+        <h3>About me</h3>
+        <p>I’m a <strong>Self Taught Python Developer,</strong> who can work on machine learning, 
+            back-end web development , web frameworks and develop a web apps.</p>
+          
+            <p>I have also created some <strong> web app  projects ,</strong> while learning</p>
+        
+        <a href="#" class="btn">View Resume</a>
+    </div>
+
+   
+
+</section>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---link to js-->
+    <script type="text/javascript" src="{% static 'reveal.js' %}"></script>

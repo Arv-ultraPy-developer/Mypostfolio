@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding: 3.5rem;
+}
+
+:root{
+
+    --bg-color: #0534B6;
+    --accent-color: #25D3D4;
+    --text-color:#fff;
+    --second-color: #3788EC;
+    
+}
+
+body{
+
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+section{
+    padding: 30px 12%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 96px;
+    font-weight: 800;
+    color: #031F6C;
+}
+
+.para p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #031F6C;
+}
+
+.madewith h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #031F6C;
+}
+
+.icons{
+    display: flex;
+    
+}
+
+img{
+    padding: 20px 20px;
+}
+li{
+    display: flex;
+}
+
+li h3{
+    margin-top: -20px;
+    color: #031F6C;
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    
+}
+
+.git a h4{
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: #031F6C;
+    margin-left: 50px;
+    border-radius: 5px;
+   
+}

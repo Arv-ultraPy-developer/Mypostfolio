@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+<link href="{% static 'skills.css' %}" rel="stylesheet" type="text/css" />
+    <title>Py developer</title>
+</head>
+<body>
+
+    <header>
+        <a href="/home" class="logo">PORTFOLIO</a>
+
+
+        <ul class="navbar">
+            <li><a href="/about">ABOUT ME</a></li>
+            <li><a href="/skills">SKILLS</a></li>
+            <li><a href="/project">PROJECT</a></li>
+            <li><a href="/contact">CONTACT</a></li>
+        </ul>
+    </header>
+
+    <section class="skills" id="home">
+        <div class="center">
+            <h3><strong>02.</strong> Skills</h3>
+        </div>
+      
+        <div class="skills-content">
+            <div class="row">
+                  <h4>CODING</h4>
+                  <article>
+                  <li><p>Python.....</p> </li>
+                  <img src="{% static 'python_lvl.png' %}" alt="">
+                </article>
+                <article>
+                  <li><p>HTML......</p></li>
+                  <img src="{% static 'python_lvl.png' %}" alt="">
+                </article>
+                <article>
+                    <li><p>CSS..........</p></li>
+                    <img src="{% static 'python_lvl.png' %}" alt="">
+                  </article>
+                  <article>
+                    <li><p>Javascript</p></li>
+                    <img src="{% static 'python_lvl.png' %}" alt="">
+                  </article>
+            </div>
+
+            <div class="row">
+                <h4>KNOWLEDGE</h4>
+                <li>Back-End Developing</li>
+                <li>Machine Learning</li>
+                <li>UX & UI Designing</li>
+                
+          </div>
+
+          <div class="row">
+            <h4>TOOLS & MODULES</h4>
+        <ul>
+            <li><img src="{% static 'simple-icons_selenium.png' %}" alt=""></li>
+            <li><img src="{% static 'cib_tensorflow.png' %}" alt=""></li>
+            <li><img src="{% static 'Vector.png' %}" alt=""></li>
+            <li><img src="{% static 'cib_flask.png' %}" alt=""></li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <h4>MAIN COURSES</h4>
+        <li>Python Zero to Mastery (Udemy)</li>
+        <li>Machine Learning (freecodecamp)</li>
+        <li>UX & UI Designing (careerfoundry)</li>
+        
+  </div>
+              
+        </div>
+    
+       
+    
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---link to js-->
+    <script type="text/javascript" src="{% static 'reveal.js' %}"></script>
